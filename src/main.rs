@@ -5,10 +5,11 @@ fn main() {
 
 // Add two numbers
 fn add(a: String, b : String) -> String{
-     return a * b 
+     return a + b 
 }
 
 // Description of the question
-fn q2(){
-    todo!()
+fn subtract(a: String,b: String)-> String{
+    let var_name = a - b;
+    return var_name
 }
