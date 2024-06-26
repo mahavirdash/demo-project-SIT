@@ -3,9 +3,9 @@ fn main() {
 }
 
 
-// Add two numbers
+//sub two numbers
 fn add(a: String, b : String) -> String{
-     return a + &b
+     return a - &b
 }
 
 // division of numbers
