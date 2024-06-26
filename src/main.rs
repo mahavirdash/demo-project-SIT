@@ -11,5 +11,5 @@ fn add(a: String, b : String) -> String{
 // Description of the question
 fn q2(){
     todo!()
-    //completed
+    //completed Successfully
 }
