@@ -1,15 +1,21 @@
-fn main() {
-    println!("Hello, world!");
+fn main()
+{
+    immutable_variable();
+    mutable_variable();
 }
-
-
-//sub two numbers
-fn add(a: String, b : String) -> String{
-     return a - &b
+fn immutable_variable()
+{
+    println!("immutable variable");
+    let x=10;
+    println!("the value of x is {}",x);  
+    println!();
 }
-
-// division of numbers
-fn q2(){
-    todo!()
-    //completed
+fn mutable_variable()
+{
+    println!("muttable variable");
+    let mut x: i32=27;
+    println!("the value of x is {}",x);
+    x=1565;
+    println!("the value of x is {}",x);
+    println!();
 }
